@@ -8,5 +8,4 @@ int main() {
 }
 
 string playfair(string str, string keyword) {
-	
 }
