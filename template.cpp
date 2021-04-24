@@ -15,6 +15,9 @@
 #include <fstream>
 #include <bitset>
 #include <climits>
+#include <complex>
+#include <chrono>
+#include <random>
 
 using namespace std;
 
@@ -22,8 +25,8 @@ using namespace std;
 #define pb push_back
 #define mt make_tuple
 #define mp make_pair
-#define f first
-#define s second
+#define fi first
+#define se second
 
 // Iteration
 #define all(c) (c).begin(), (c).end()
@@ -39,13 +42,15 @@ using namespace std;
 #define ps(x) cout << x << "\n"
 
 // Types 
-#define ll long long
-#define ld long double
-#define str string
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-typedef vector<ll> vl;
-typedef vector<vi> vvi;
+using ll = long long;
+using ld = long double;
+using uint = unsigned int;
+using ull = unsigned long long;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+using vi = vector<int>;
+using vvi = vector<vector<int>>;
+using vll = vector<ll>;
 
 // Debugging
 #define isDebug true
